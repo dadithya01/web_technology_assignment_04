@@ -1,0 +1,55 @@
+.menu{
+    position: absolute;
+    display: flex;
+    width: 400px;
+    height: 100px;
+    background-color: purple;
+    color: white;
+    margin-left: -320px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    transition-duration: 1s;
+}
+
+div>span{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    font-size: 30px;
+    padding-left: 20px;
+    font-weight: bold;
+
+}
+#menu1{
+    top: 200px;
+}
+#menu1:hover{
+    width: 400px;
+    margin-left: 0;
+}
+
+#menu2{
+    top: 400px;
+}
+#menu2:hover{
+    width: 400px;
+    margin-left: 0;
+}
+#menu3{
+    top: 600px;
+}
+#menu3:hover{
+    width: 400px;
+    transition: 1s;
+    margin-left: 0;
+}
+#menu4{
+    top: 800px;
+}
+#menu4:hover{
+    width: 400px;
+    margin-left: 0;
+}
