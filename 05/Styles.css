@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.slider-container {
+    width: 1737px;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.slides {
+    display: flex;
+    width: 200%;
+    height: 100%;
+    animation: slideShow ease-in-out 20s infinite alternate;
+}
+
+.slide img {
+    width: 1737px;
+    height: 100%;
+}
+
+@keyframes slideShow {
+    0% {
+        transform: translateX(0);
+    }
+    45% {
+        transform: translateX(0);
+    }
+
+    55% {
+        transform: translateX(-50%);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
