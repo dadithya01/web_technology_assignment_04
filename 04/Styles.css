@@ -1,0 +1,30 @@
+div{
+    border: 5px solid black;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    animation-name: waterdrop;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+@keyframes waterdrop {
+    from{
+        width: 30px;
+        height: 30px;
+
+    }
+    to{
+        width: 300px;
+        height: 300px;
+        opacity: 0;
+
+    }
+
+}
